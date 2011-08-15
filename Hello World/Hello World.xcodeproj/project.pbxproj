@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03A41CA13F9891800A2B27D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A41C913F9891800A2B27D /* icon.png */; };
 		C0F7B53013F5BB5E006DA390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F7B52F13F5BB5E006DA390 /* UIKit.framework */; };
 		C0F7B53213F5BB5E006DA390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F7B53113F5BB5E006DA390 /* Foundation.framework */; };
 		C0F7B53413F5BB5E006DA390 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F7B53313F5BB5E006DA390 /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C03A41C913F9891800A2B27D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		C0F7B52B13F5BB5E006DA390 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F7B52F13F5BB5E006DA390 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0F7B53113F5BB5E006DA390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,9 +85,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C03A41C713F9889800A2B27D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C03A41C913F9891800A2B27D /* icon.png */,
+			);
+			name = Resources;
+			path = "Hello World";
+			sourceTree = "<group>";
+		};
 		C0F7B52013F5BB5E006DA390 = {
 			isa = PBXGroup;
 			children = (
+				C03A41C713F9889800A2B27D /* Resources */,
 				C0F7B53513F5BB5E006DA390 /* Hello World */,
 				C0F7B55713F5BB5F006DA390 /* Hello WorldTests */,
 				C0F7B52E13F5BB5E006DA390 /* Frameworks */,
@@ -230,6 +242,7 @@
 				C0F7B53A13F5BB5E006DA390 /* InfoPlist.strings in Resources */,
 				C0F7B54313F5BB5E006DA390 /* MainWindow.xib in Resources */,
 				C0F7B54913F5BB5E006DA390 /* Hello_WorldViewController.xib in Resources */,
+				C03A41CA13F9891800A2B27D /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +456,7 @@
 				C0F7B56513F5BB5F006DA390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0F7B56613F5BB5F006DA390 /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +465,7 @@
 				C0F7B56813F5BB5F006DA390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
