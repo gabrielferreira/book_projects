@@ -23,6 +23,7 @@
 		C03A420713F9939000A2B27D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C03A420513F9939000A2B27D /* InfoPlist.strings */; };
 		C03A420913F9939000A2B27D /* Button_FunTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C03A420813F9939000A2B27D /* Button_FunTests.h */; };
 		C03A420B13F9939000A2B27D /* Button_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C03A420A13F9939000A2B27D /* Button_FunTests.m */; };
+		C03A425213F9959B00A2B27D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C03A425113F9959B00A2B27D /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,23 @@
 		C03A41DA13F9939000A2B27D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C03A41DC13F9939000A2B27D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C03A41DE13F9939000A2B27D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C03A41E213F9939000A2B27D /* Button Fun-Info.plist */ = {isa = PBXFileReference; path = "Button Fun-Info.plist"; sourceTree = "<group>"; };
+		C03A41E213F9939000A2B27D /* Button Fun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Button Fun-Info.plist"; sourceTree = "<group>"; };
 		C03A41E413F9939000A2B27D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C03A41E613F9939000A2B27D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C03A41E813F9939000A2B27D /* Button Fun-Prefix.pch */ = {isa = PBXFileReference; path = "Button Fun-Prefix.pch"; sourceTree = "<group>"; };
-		C03A41E913F9939000A2B27D /* Button_FunAppDelegate.h */ = {isa = PBXFileReference; path = Button_FunAppDelegate.h; sourceTree = "<group>"; };
+		C03A41E813F9939000A2B27D /* Button Fun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Button Fun-Prefix.pch"; sourceTree = "<group>"; };
+		C03A41E913F9939000A2B27D /* Button_FunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_FunAppDelegate.h; sourceTree = "<group>"; };
 		C03A41EA13F9939000A2B27D /* Button_FunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_FunAppDelegate.m; sourceTree = "<group>"; };
 		C03A41ED13F9939000A2B27D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C03A41EF13F9939000A2B27D /* Button_FunViewController.h */ = {isa = PBXFileReference; path = Button_FunViewController.h; sourceTree = "<group>"; };
+		C03A41EF13F9939000A2B27D /* Button_FunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_FunViewController.h; sourceTree = "<group>"; };
 		C03A41F013F9939000A2B27D /* Button_FunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_FunViewController.m; sourceTree = "<group>"; };
 		C03A41F313F9939000A2B27D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Button_FunViewController.xib; sourceTree = "<group>"; };
 		C03A41FA13F9939000A2B27D /* Button FunTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button FunTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03A41FB13F9939000A2B27D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C03A420413F9939000A2B27D /* Button FunTests-Info.plist */ = {isa = PBXFileReference; path = "Button FunTests-Info.plist"; sourceTree = "<group>"; };
+		C03A420413F9939000A2B27D /* Button FunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Button FunTests-Info.plist"; sourceTree = "<group>"; };
 		C03A420613F9939000A2B27D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C03A420813F9939000A2B27D /* Button_FunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_FunTests.h; sourceTree = "<group>"; };
 		C03A420A13F9939000A2B27D /* Button_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_FunTests.m; sourceTree = "<group>"; };
+		C03A425113F9959B00A2B27D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		C03A41E113F9939000A2B27D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C03A421513F9945600A2B27D /* Asset */,
 				C03A41E213F9939000A2B27D /* Button Fun-Info.plist */,
 				C03A41E313F9939000A2B27D /* InfoPlist.strings */,
 				C03A41E613F9939000A2B27D /* main.m */,
@@ -155,6 +158,14 @@
 				C03A420513F9939000A2B27D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C03A421513F9945600A2B27D /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				C03A425113F9959B00A2B27D /* icon.png */,
+			);
+			name = Asset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 				C03A41E513F9939000A2B27D /* InfoPlist.strings in Resources */,
 				C03A41EE13F9939000A2B27D /* MainWindow.xib in Resources */,
 				C03A41F413F9939000A2B27D /* Button_FunViewController.xib in Resources */,
+				C03A425213F9959B00A2B27D /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
