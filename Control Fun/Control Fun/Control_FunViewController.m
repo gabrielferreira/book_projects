@@ -10,6 +10,9 @@
 
 @implementation Control_FunViewController
 
+@synthesize numberField;
+@synthesize nameField;
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -39,6 +42,12 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (void)dealloc {
+    [nameField release];
+    [numberField release];
+    [super dealloc];
 }
 
 @end

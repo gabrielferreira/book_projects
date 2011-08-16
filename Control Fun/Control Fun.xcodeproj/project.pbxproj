@@ -23,6 +23,8 @@
 		C0765B2513FAE63D00AACBCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0765B2313FAE63D00AACBCE /* InfoPlist.strings */; };
 		C0765B2713FAE63D00AACBCE /* Control_FunTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C0765B2613FAE63D00AACBCE /* Control_FunTests.h */; };
 		C0765B2913FAE63D00AACBCE /* Control_FunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0765B2813FAE63D00AACBCE /* Control_FunTests.m */; };
+		C0765B3413FAF08600AACBCE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0765B3313FAF08600AACBCE /* icon.png */; };
+		C0765B3813FAF16B00AACBCE /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = C0765B3713FAF16B00AACBCE /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		C0765B2413FAE63D00AACBCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0765B2613FAE63D00AACBCE /* Control_FunTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Control_FunTests.h; sourceTree = "<group>"; };
 		C0765B2813FAE63D00AACBCE /* Control_FunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Control_FunTests.m; sourceTree = "<group>"; };
+		C0765B3313FAF08600AACBCE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C0765B3713FAF16B00AACBCE /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		C0765AFF13FAE63C00AACBCE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0765B3213FAF05D00AACBCE /* Asset */,
 				C0765B0013FAE63C00AACBCE /* Control Fun-Info.plist */,
 				C0765B0113FAE63C00AACBCE /* InfoPlist.strings */,
 				C0765B0413FAE63C00AACBCE /* main.m */,
@@ -155,6 +160,15 @@
 				C0765B2313FAE63D00AACBCE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0765B3213FAF05D00AACBCE /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				C0765B3713FAF16B00AACBCE /* apple.png */,
+				C0765B3313FAF08600AACBCE /* icon.png */,
+			);
+			name = Asset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,8 @@
 				C0765B0313FAE63C00AACBCE /* InfoPlist.strings in Resources */,
 				C0765B0C13FAE63D00AACBCE /* MainWindow.xib in Resources */,
 				C0765B1213FAE63D00AACBCE /* Control_FunViewController.xib in Resources */,
+				C0765B3413FAF08600AACBCE /* icon.png in Resources */,
+				C0765B3813FAF16B00AACBCE /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
