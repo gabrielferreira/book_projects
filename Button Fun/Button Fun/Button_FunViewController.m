@@ -9,6 +9,15 @@
 #import "Button_FunViewController.h"
 
 @implementation Button_FunViewController
+@synthesize statusText;
+
+- (IBAction)buttonPressed:(id)sender {
+    NSString *title = [sender titleForState:UIControlStateNormal];
+    NSString *newText = [[NSString alloc] initWithFormat:
+                         @"%@ button pressed.", title];
+    statusText.text = newText;
+    [newText release];
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,25 +29,16 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
-
 - (void)viewDidUnload
 {
-    [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    self.statusText = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+- (void)dealloc {
+    [statusText release];
+    [super dealloc];
 }
 
 @end
