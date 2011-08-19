@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Control_FunViewController : UIViewController {
+#define kSwitchesSegmentIndex 0
+
+@interface Control_FunViewController : UIViewController 
+        <UIActionSheetDelegate> {
     UITextField *nameField;
     UITextField *numberField;
     UILabel *sliderLabel;
