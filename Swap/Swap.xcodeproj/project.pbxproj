@@ -15,7 +15,6 @@
 		C031B07E1402F09D0099B82A /* SwapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C031B07D1402F09D0099B82A /* SwapAppDelegate.m */; };
 		C031B0811402F09D0099B82A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C031B07F1402F09D0099B82A /* MainWindow.xib */; };
 		C031B0841402F09D0099B82A /* SwapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C031B0831402F09D0099B82A /* SwapViewController.m */; };
-		C031B0871402F09D0099B82A /* SwapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C031B0851402F09D0099B82A /* SwapViewController.xib */; };
 		C031B08F1402F09D0099B82A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031B08E1402F09D0099B82A /* SenTestingKit.framework */; };
 		C031B0901402F09D0099B82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031B06D1402F09D0099B82A /* UIKit.framework */; };
 		C031B0911402F09D0099B82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031B06F1402F09D0099B82A /* Foundation.framework */; };
@@ -40,19 +39,18 @@
 		C031B06D1402F09D0099B82A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C031B06F1402F09D0099B82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C031B0711402F09D0099B82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C031B0751402F09D0099B82A /* Swap-Info.plist */ = {isa = PBXFileReference; path = "Swap-Info.plist"; sourceTree = "<group>"; };
+		C031B0751402F09D0099B82A /* Swap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swap-Info.plist"; sourceTree = "<group>"; };
 		C031B0771402F09D0099B82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C031B0791402F09D0099B82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C031B07B1402F09D0099B82A /* Swap-Prefix.pch */ = {isa = PBXFileReference; path = "Swap-Prefix.pch"; sourceTree = "<group>"; };
-		C031B07C1402F09D0099B82A /* SwapAppDelegate.h */ = {isa = PBXFileReference; path = SwapAppDelegate.h; sourceTree = "<group>"; };
+		C031B07B1402F09D0099B82A /* Swap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swap-Prefix.pch"; sourceTree = "<group>"; };
+		C031B07C1402F09D0099B82A /* SwapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapAppDelegate.h; sourceTree = "<group>"; };
 		C031B07D1402F09D0099B82A /* SwapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapAppDelegate.m; sourceTree = "<group>"; };
 		C031B0801402F09D0099B82A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C031B0821402F09D0099B82A /* SwapViewController.h */ = {isa = PBXFileReference; path = SwapViewController.h; sourceTree = "<group>"; };
+		C031B0821402F09D0099B82A /* SwapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapViewController.h; sourceTree = "<group>"; };
 		C031B0831402F09D0099B82A /* SwapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapViewController.m; sourceTree = "<group>"; };
-		C031B0861402F09D0099B82A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwapViewController.xib; sourceTree = "<group>"; };
 		C031B08D1402F09D0099B82A /* SwapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C031B08E1402F09D0099B82A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C031B0971402F09D0099B82A /* SwapTests-Info.plist */ = {isa = PBXFileReference; path = "SwapTests-Info.plist"; sourceTree = "<group>"; };
+		C031B0971402F09D0099B82A /* SwapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapTests-Info.plist"; sourceTree = "<group>"; };
 		C031B0991402F09D0099B82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C031B09B1402F09D0099B82A /* SwapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapTests.h; sourceTree = "<group>"; };
 		C031B09D1402F09D0099B82A /* SwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapTests.m; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 				C031B07F1402F09D0099B82A /* MainWindow.xib */,
 				C031B0821402F09D0099B82A /* SwapViewController.h */,
 				C031B0831402F09D0099B82A /* SwapViewController.m */,
-				C031B0851402F09D0099B82A /* SwapViewController.xib */,
 				C031B0741402F09D0099B82A /* Supporting Files */,
 			);
 			path = Swap;
@@ -229,7 +226,6 @@
 			files = (
 				C031B0781402F09D0099B82A /* InfoPlist.strings in Resources */,
 				C031B0811402F09D0099B82A /* MainWindow.xib in Resources */,
-				C031B0871402F09D0099B82A /* SwapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +300,6 @@
 				C031B0801402F09D0099B82A /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		C031B0851402F09D0099B82A /* SwapViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C031B0861402F09D0099B82A /* en */,
-			);
-			name = SwapViewController.xib;
 			sourceTree = "<group>";
 		};
 		C031B0981402F09D0099B82A /* InfoPlist.strings */ = {
