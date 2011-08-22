@@ -105,16 +105,28 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    UIImage *buttonImageNormal = [UIImage imageNamed:@"whiteButton.png"];
+    UIImage *stretchableButtonImageNormal = [buttonImageNormal
+                                             stretchableImageWithLeftCapWidth:12 topCapHeight:0];
+    [doSomethingButton setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];
+    
+    UIImage *buttonImagePressed = [UIImage imageNamed:@"blueButton.png"];
+    UIImage *stretchableButtonImagePressed = [buttonImagePressed
+                                              stretchableImageWithLeftCapWidth:12 topCapHeight:0];
+    [doSomethingButton setBackgroundImage:stretchableButtonImagePressed forState:UIControlStateHighlighted];
 }
-*/
 
 - (void)viewDidUnload
 {
+    self.nameField = nil;
+    self.numberField = nil;
+    self.sliderLabel = nil;
+    self.leftSwitch = nil;
+    self.rightSwitch = nil;
+    self.doSomethingButton = nil;
+    
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C031B0121402D57D0099B82A /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C031B0101402D57D0099B82A /* blueButton.png */; };
+		C031B0131402D57D0099B82A /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C031B0111402D57D0099B82A /* whiteButton.png */; };
 		C0765AF913FAE63C00AACBCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0765AF813FAE63C00AACBCE /* UIKit.framework */; };
 		C0765AFB13FAE63C00AACBCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0765AFA13FAE63C00AACBCE /* Foundation.framework */; };
 		C0765AFD13FAE63C00AACBCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0765AFC13FAE63C00AACBCE /* CoreGraphics.framework */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C031B0101402D57D0099B82A /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		C031B0111402D57D0099B82A /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		C0765AF413FAE63C00AACBCE /* Control Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0765AF813FAE63C00AACBCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0765AFA13FAE63C00AACBCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -165,6 +169,8 @@
 		C0765B3213FAF05D00AACBCE /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				C031B0101402D57D0099B82A /* blueButton.png */,
+				C031B0111402D57D0099B82A /* whiteButton.png */,
 				C0765B3713FAF16B00AACBCE /* apple.png */,
 				C0765B3313FAF08600AACBCE /* icon.png */,
 			);
@@ -246,6 +252,8 @@
 				C0765B1213FAE63D00AACBCE /* Control_FunViewController.xib in Resources */,
 				C0765B3413FAF08600AACBCE /* icon.png in Resources */,
 				C0765B3813FAF16B00AACBCE /* apple.png in Resources */,
+				C031B0121402D57D0099B82A /* blueButton.png in Resources */,
+				C031B0131402D57D0099B82A /* whiteButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +467,7 @@
 				C0765B2E13FAE63D00AACBCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0765B2F13FAE63D00AACBCE /* Build configuration list for PBXNativeTarget "Control FunTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +476,7 @@
 				C0765B3113FAE63D00AACBCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
