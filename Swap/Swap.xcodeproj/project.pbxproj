@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0C0A2DE14041C78005ECC00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C0A2DD14041C78005ECC00 /* UIKit.framework */; };
+		C0C0A2E014041C78005ECC00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C0A2DF14041C78005ECC00 /* Foundation.framework */; };
+		C0C0A2E214041C78005ECC00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C0A2E114041C78005ECC00 /* CoreGraphics.framework */; };
+		C0C0A2E814041C79005ECC00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0C0A2E614041C79005ECC00 /* InfoPlist.strings */; };
+		C0C0A2EA14041C79005ECC00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C0A2E914041C79005ECC00 /* main.m */; };
+		C0C0A2EE14041C79005ECC00 /* SwapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C0A2ED14041C79005ECC00 /* SwapAppDelegate.m */; };
+		C0C0A2F114041C79005ECC00 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C0A2EF14041C79005ECC00 /* MainWindow.xib */; };
+		C0C0A2F414041C79005ECC00 /* SwapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C0A2F314041C79005ECC00 /* SwapViewController.m */; };
+		C0C0A2F714041C79005ECC00 /* SwapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0C0A2F514041C79005ECC00 /* SwapViewController.xib */; };
+		C0C0A2FF14041C7C005ECC00 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C0A2FE14041C7C005ECC00 /* SenTestingKit.framework */; };
+		C0C0A30014041C7C005ECC00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C0A2DD14041C78005ECC00 /* UIKit.framework */; };
+		C0C0A30114041C7C005ECC00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C0A2DF14041C78005ECC00 /* Foundation.framework */; };
+		C0C0A30214041C7C005ECC00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C0A2E114041C78005ECC00 /* CoreGraphics.framework */; };
+		C0C0A30A14041C7C005ECC00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0C0A30814041C7C005ECC00 /* InfoPlist.strings */; };
+		C0C0A30C14041C7D005ECC00 /* SwapTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C0C0A30B14041C7D005ECC00 /* SwapTests.h */; };
+		C0C0A30E14041C7D005ECC00 /* SwapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C0A30D14041C7D005ECC00 /* SwapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C0A30314041C7C005ECC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0C0A2D014041C75005ECC00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0C0A2D814041C78005ECC00;
+			remoteInfo = Swap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0C0A2D914041C78005ECC00 /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C0A2DD14041C78005ECC00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0C0A2DF14041C78005ECC00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0C0A2E114041C78005ECC00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0C0A2E514041C79005ECC00 /* Swap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swap-Info.plist"; sourceTree = "<group>"; };
+		C0C0A2E714041C79005ECC00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0C0A2E914041C79005ECC00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0C0A2EB14041C79005ECC00 /* Swap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swap-Prefix.pch"; sourceTree = "<group>"; };
+		C0C0A2EC14041C79005ECC00 /* SwapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapAppDelegate.h; sourceTree = "<group>"; };
+		C0C0A2ED14041C79005ECC00 /* SwapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapAppDelegate.m; sourceTree = "<group>"; };
+		C0C0A2F014041C79005ECC00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C0C0A2F214041C79005ECC00 /* SwapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapViewController.h; sourceTree = "<group>"; };
+		C0C0A2F314041C79005ECC00 /* SwapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapViewController.m; sourceTree = "<group>"; };
+		C0C0A2F614041C79005ECC00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwapViewController.xib; sourceTree = "<group>"; };
+		C0C0A2FD14041C7C005ECC00 /* SwapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C0A2FE14041C7C005ECC00 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0C0A30714041C7C005ECC00 /* SwapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwapTests-Info.plist"; sourceTree = "<group>"; };
+		C0C0A30914041C7C005ECC00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0C0A30B14041C7D005ECC00 /* SwapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapTests.h; sourceTree = "<group>"; };
+		C0C0A30D14041C7D005ECC00 /* SwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0C0A2D614041C78005ECC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0A2DE14041C78005ECC00 /* UIKit.framework in Frameworks */,
+				C0C0A2E014041C78005ECC00 /* Foundation.framework in Frameworks */,
+				C0C0A2E214041C78005ECC00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C0A2F914041C7C005ECC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0A2FF14041C7C005ECC00 /* SenTestingKit.framework in Frameworks */,
+				C0C0A30014041C7C005ECC00 /* UIKit.framework in Frameworks */,
+				C0C0A30114041C7C005ECC00 /* Foundation.framework in Frameworks */,
+				C0C0A30214041C7C005ECC00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0C0A2CE14041C74005ECC00 = {
+			isa = PBXGroup;
+			children = (
+				C0C0A2E314041C78005ECC00 /* Swap */,
+				C0C0A30514041C7C005ECC00 /* SwapTests */,
+				C0C0A2DC14041C78005ECC00 /* Frameworks */,
+				C0C0A2DA14041C78005ECC00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0C0A2DA14041C78005ECC00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0A2D914041C78005ECC00 /* Swap.app */,
+				C0C0A2FD14041C7C005ECC00 /* SwapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0C0A2DC14041C78005ECC00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0A2DD14041C78005ECC00 /* UIKit.framework */,
+				C0C0A2DF14041C78005ECC00 /* Foundation.framework */,
+				C0C0A2E114041C78005ECC00 /* CoreGraphics.framework */,
+				C0C0A2FE14041C7C005ECC00 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C0A2E314041C78005ECC00 /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0A2EC14041C79005ECC00 /* SwapAppDelegate.h */,
+				C0C0A2ED14041C79005ECC00 /* SwapAppDelegate.m */,
+				C0C0A2EF14041C79005ECC00 /* MainWindow.xib */,
+				C0C0A2F214041C79005ECC00 /* SwapViewController.h */,
+				C0C0A2F314041C79005ECC00 /* SwapViewController.m */,
+				C0C0A2F514041C79005ECC00 /* SwapViewController.xib */,
+				C0C0A2E414041C79005ECC00 /* Supporting Files */,
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
+		C0C0A2E414041C79005ECC00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0A2E514041C79005ECC00 /* Swap-Info.plist */,
+				C0C0A2E614041C79005ECC00 /* InfoPlist.strings */,
+				C0C0A2E914041C79005ECC00 /* main.m */,
+				C0C0A2EB14041C79005ECC00 /* Swap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0C0A30514041C7C005ECC00 /* SwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0A30B14041C7D005ECC00 /* SwapTests.h */,
+				C0C0A30D14041C7D005ECC00 /* SwapTests.m */,
+				C0C0A30614041C7C005ECC00 /* Supporting Files */,
+			);
+			path = SwapTests;
+			sourceTree = "<group>";
+		};
+		C0C0A30614041C7C005ECC00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0A30714041C7C005ECC00 /* SwapTests-Info.plist */,
+				C0C0A30814041C7C005ECC00 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0C0A2D814041C78005ECC00 /* Swap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C0A31114041C7D005ECC00 /* Build configuration list for PBXNativeTarget "Swap" */;
+			buildPhases = (
+				C0C0A2D514041C78005ECC00 /* Sources */,
+				C0C0A2D614041C78005ECC00 /* Frameworks */,
+				C0C0A2D714041C78005ECC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swap;
+			productName = Swap;
+			productReference = C0C0A2D914041C78005ECC00 /* Swap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C0A2FC14041C7C005ECC00 /* SwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C0A31414041C7D005ECC00 /* Build configuration list for PBXNativeTarget "SwapTests" */;
+			buildPhases = (
+				C0C0A2F814041C7C005ECC00 /* Sources */,
+				C0C0A2F914041C7C005ECC00 /* Frameworks */,
+				C0C0A2FA14041C7C005ECC00 /* Resources */,
+				C0C0A2FB14041C7C005ECC00 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C0A30414041C7C005ECC00 /* PBXTargetDependency */,
+			);
+			name = SwapTests;
+			productName = SwapTests;
+			productReference = C0C0A2FD14041C7C005ECC00 /* SwapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0C0A2D014041C75005ECC00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Concrete Solutions";
+			};
+			buildConfigurationList = C0C0A2D314041C75005ECC00 /* Build configuration list for PBXProject "Swap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0C0A2CE14041C74005ECC00;
+			productRefGroup = C0C0A2DA14041C78005ECC00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0C0A2D814041C78005ECC00 /* Swap */,
+				C0C0A2FC14041C7C005ECC00 /* SwapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0C0A2D714041C78005ECC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0A2E814041C79005ECC00 /* InfoPlist.strings in Resources */,
+				C0C0A2F114041C79005ECC00 /* MainWindow.xib in Resources */,
+				C0C0A2F714041C79005ECC00 /* SwapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C0A2FA14041C7C005ECC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0A30A14041C7C005ECC00 /* InfoPlist.strings in Resources */,
+				C0C0A30C14041C7D005ECC00 /* SwapTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0C0A2FB14041C7C005ECC00 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0C0A2D514041C78005ECC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0A2EA14041C79005ECC00 /* main.m in Sources */,
+				C0C0A2EE14041C79005ECC00 /* SwapAppDelegate.m in Sources */,
+				C0C0A2F414041C79005ECC00 /* SwapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C0A2F814041C7C005ECC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0A30E14041C7D005ECC00 /* SwapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0C0A30414041C7C005ECC00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0C0A2D814041C78005ECC00 /* Swap */;
+			targetProxy = C0C0A30314041C7C005ECC00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0C0A2E614041C79005ECC00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C0A2E714041C79005ECC00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0C0A2EF14041C79005ECC00 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C0A2F014041C79005ECC00 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C0C0A2F514041C79005ECC00 /* SwapViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C0A2F614041C79005ECC00 /* en */,
+			);
+			name = SwapViewController.xib;
+			sourceTree = "<group>";
+		};
+		C0C0A30814041C7C005ECC00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C0A30914041C7C005ECC00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0C0A30F14041C7D005ECC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0C0A31014041C7D005ECC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0C0A31214041C7D005ECC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0C0A31314041C7D005ECC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0C0A31514041C7D005ECC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swap.app/Swap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "SwapTests/SwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C0C0A31614041C7D005ECC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swap.app/Swap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "SwapTests/SwapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0C0A2D314041C75005ECC00 /* Build configuration list for PBXProject "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C0A30F14041C7D005ECC00 /* Debug */,
+				C0C0A31014041C7D005ECC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C0A31114041C7D005ECC00 /* Build configuration list for PBXNativeTarget "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C0A31214041C7D005ECC00 /* Debug */,
+				C0C0A31314041C7D005ECC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0C0A31414041C7D005ECC00 /* Build configuration list for PBXNativeTarget "SwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C0A31514041C7D005ECC00 /* Debug */,
+				C0C0A31614041C7D005ECC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0C0A2D014041C75005ECC00 /* Project object */;
+}
