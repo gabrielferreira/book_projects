@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface BlueViewController : UIViewController
+- (IBAction)blueButtonPressed;
 
 @end

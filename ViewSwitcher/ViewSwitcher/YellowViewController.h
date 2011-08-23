@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface YellowViewController : UIViewController
+- (IBAction)yellowButtonPressed;
 
 @end
